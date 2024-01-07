@@ -5,6 +5,8 @@
 ```shell
 git clone https://github.com/fanfpy/m3e.local.git
 cd m3e.local
+# 这一步会下载镜像 使用的魔搭的模型源，文件大概1G，需要一分钟左右
+# 可以使用docker-compose up 观察输出
 docker-compose up -d
 # running on http://0.0.0.0:6006
 ```
