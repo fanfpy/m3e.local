@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  your_app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "6006:6006"  # 如果你的应用在容器中监听了端口，可以映射到宿主机的端口
+    container_name: m3e-local  # 这里指定容器名字
+    image: m3e-local:latest  # 这里指定镜像名字
