@@ -21,10 +21,6 @@ curl --location 'http://127.0.0.1:6006/v1/embeddings' \
     "model": "text-embedding-ada-002",
     "encoding_format": "float"
   }'
-
-#response
-
-
 ```
 ### response
 ```json
