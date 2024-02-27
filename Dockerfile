@@ -1,6 +1,6 @@
 # auth email fanfpy@qq.com
 # 使用官方的Python 3.10镜像作为基础镜像
-FROM python:3.10
+FROM python:3.10-slim-bullseye
 
 # 设置 pip 源为清华大学的镜像
 RUN pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
